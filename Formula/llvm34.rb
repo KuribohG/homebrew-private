@@ -79,8 +79,8 @@ class Llvm34 < Formula
   deprecated_option "all-targets" => "with-all-targets"
   deprecated_option "disable-assertions" => "without-assertions"
 
-  depends_on "gmp"
-  depends_on "isl"
+  # depends_on "gmp"
+  # depends_on "isl"
   depends_on "cloog"
   depends_on "libffi" => :recommended
 
